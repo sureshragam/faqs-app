@@ -1,0 +1,29 @@
+/* Write your code here. */
+li {
+  list-style-type: none;
+  padding: 10px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #d7dae6;
+  margin-bottom: 28px;
+}
+li > .question-tab {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.question-tab > button {
+  background-color: transparent;
+  border-style: none;
+}
+.question {
+  color: #52606d;
+  font-size: 20px;
+}
+.answer {
+  color: #9aa5b1;
+}
+hr {
+  color: #9aa5b1;
+}
